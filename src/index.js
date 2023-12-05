@@ -8,5 +8,8 @@ app.get('/',(req,res)=>{
 app.get('/dashboard',(req,res)=>{
     res.send("Bienvenido - Usuaurio")
 })
+app.get('/about',(req,res)=>{
+    res.send("Sobre nosotros")
+})
 
 app.listen(3000)
